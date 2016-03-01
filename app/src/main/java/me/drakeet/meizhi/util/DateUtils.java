@@ -19,8 +19,6 @@
 
 package me.drakeet.meizhi.util;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -30,9 +28,7 @@ import java.util.Date;
 public class DateUtils {
 
     public static String toDate(Date date) {
-
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
-        return dateFormat.format(date);
+        return "";
     }
 
 
