@@ -36,10 +36,7 @@ public class DateUtils {
 
 
     public static String toDate(Date date, int add) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        calendar.add(Calendar.DATE, add);
-        return toDate(calendar.getTime());
+        return "";
     }
 
 
