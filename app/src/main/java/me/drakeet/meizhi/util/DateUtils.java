@@ -30,6 +30,7 @@ import java.util.Date;
 public class DateUtils {
 
     public static String toDate(Date date) {
+
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
         return dateFormat.format(date);
     }
